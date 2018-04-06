@@ -15,34 +15,36 @@ body>div {
     margin: 0 auto;
 }
 
-body div {
+div {
     box-sizing: border-box;
-}
-
-.flex {
     display: flex;
+    border: black solid 1px;
 }
 
-.flex.row {
+div.row {
     flex-direction: row;
 }
 
-.flex.column {
+div.column {
     flex-direction: column;
 }
 
-.flex.grow {
+div.grow {
     flex-grow: 1;
     flex-shrink: 0;
 }
 
-.flex.shrink {
+div.shrink {
     flex-grow: 0;
     flex-shrink: 1;
 }
 
 #menu {
     flex: 0 1 180px;
+}
+
+#menu h3 {
+    margin: 6px;
 }
 
 #menu .btn {
@@ -53,7 +55,7 @@ body div {
     margin: 6px;
 }
 
-#menu .btn p:hover {
+#menu .btn:hover p {
     margin: 6px 12px;
 }
 
