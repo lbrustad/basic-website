@@ -1,3 +1,3 @@
-Visit [this](http://brustadlasse.no/) site!
+Visit [this](https://lbrustad.github.io/) site!
 
 Nothing interesting here!
